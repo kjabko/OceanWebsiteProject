@@ -1,0 +1,218 @@
+
+ h1, h2, h3, h5, h6, p, i {
+  font-family: 'Oxygen', sans-serif;
+ } 
+.jumbotron {
+  background-image: url(../img/dark_ocean.jpg);
+  background-attachment: fixed;
+}
+
+.navbar-default{
+  /**background:rgba(255,255,255,0.8);*/
+  background: #151515;
+  border-bottom:1px solid #fff;
+  z-index:1;
+  position: relative;
+  margin-bottom: 0px;
+  width: ;
+  margin: 0px;
+  margin-bottom: 1px;
+  padding-bottom: 0px;
+  
+}
+.navbar-nav{
+  font-family: 'Oxygen', sans-serif;
+  font-weight:300;
+  font-size:1.40em;
+}
+.navbar-default .navbar-nav>li {
+  margin-left: 50px;
+  margin-bottom: 8px;
+  margin-top:4px;
+
+}
+.navbar-default .navbar-nav>li,.active {
+  border-radius:px
+}
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+.navbar-default .navbar-right>li>a {
+  color:#fff;
+}
+.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-right>li>a:hover {
+  padding-bottom: 3px; 
+  margin-top: 0px;
+  border-bottom:3px solid #58D3F7;
+  color: #58D3F7;
+}
+#brand img {
+  height: 40px;
+  width: 80px;
+  margin-top: 5px;
+  padding-top: px;
+  vertical-align: middle;
+  margin-left: 40%;
+  border: 0px solid #58D3F7;
+  border-radius:px
+}
+#brand img:hover {
+  border: 1px solid #58D3F7;
+  border-radius:px
+}
+  .value {
+    border: 0;
+    display: inline-block;
+    margin: ;
+    padding: 0;
+    position: relative;
+    height: 0;
+    padding-top: 38.33333%;
+    width: 38.33333%;
+  }
+  .value .value__contents {
+    display: block;
+    position: absolute;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .value__title {
+    border-radius: 0%;
+    margin: 0;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    padding-top: 18%;
+    background-image: url(../img/bag.jpg);
+    background-repeat: no-repeat;
+  }
+
+
+value__title span {
+  display: block;
+  font-size: 1.16667em;
+  margin: .5em 0 0;
+  padding: .7em 0 .6em;
+  position: relative;
+  text-transform: uppercase;
+  width: 100%;
+}
+.value__title span:before, .value__title span:after {
+  content: '';
+  display: block;
+  height: 3px;
+  position: absolute;
+  width: 7em;
+  background: #eeeeee;
+  left: 0;
+  margin: auto;
+  right: 0;
+}
+.value__title span:before {
+  top: 0;
+}
+.value__title span:after {
+  bottom: 0;
+}
+
+  .value__title span {
+    font-size: 1em;
+    position: absolute;
+  }
+  .value__title span:before, .value__title span:after {
+    width: 5em;
+  }
+
+
+
+
+
+
+  .value__details {
+    border-radius: 0%;
+    margin: 0;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    background: url(../img/nomura.jpg);
+    background-repeat: no-repeat;
+    padding: 15% 7%;
+  }
+
+
+
+
+.value__details__title {
+  display: none;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+  .value__details__title {
+    display: block;
+    font-size: 1em;
+    margin: 0 1.8em;
+  }
+
+
+
+
+/* @end */
+/* @group 3d circle flip */
+
+  .value {
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -o-perspective: 800px;
+    perspective: 1900px;
+    position: relative;
+  }
+
+  .value__contents {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    -moz-transition: -moz-transform 0.5s ease-in-out;
+    -o-transition: -o-transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .value__title,
+  .value__details {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+
+  .value__details {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+
+  .value:focus .value__contents,
+  .value:hover .value__contents {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+
+
+/* @end */
+
+/* @end */
+/* @end of Flipping Circles*/
