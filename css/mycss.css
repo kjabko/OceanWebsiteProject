@@ -1,24 +1,45 @@
 
- h1, h2, h3, h5, h6, p, i {
+ 
+ h1, h2, h3, h5, h6, p {
   font-family: 'Oxygen', sans-serif;
+  color: #000;
  } 
 .jumbotron {
-  background-image: url(../img/dark_ocean.jpg);
-  background-attachment: fixed;
+  background-color: #fff;
+}
+.jumbotron h1, p, img {
+  color: #000;
+  text-align: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
+section>.jumbotron {
+  background-color: yellow;
+  background-image: url('../img/38.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.img-responsive {
+        height:auto;
+        width:30%;
+    }
 .navbar-default{
   /**background:rgba(255,255,255,0.8);*/
   background: #151515;
   border-bottom:1px solid #fff;
   z-index:1;
-  position: relative;
+  position: fixed;
   margin-bottom: 0px;
   width: ;
   margin: 0px;
   margin-bottom: 1px;
-  padding-bottom: 0px;
-  
+  padding-bottom: 0px;  
+}
+li.active {
+  background: @green;
 }
 .navbar-nav{
   font-family: 'Oxygen', sans-serif;
@@ -60,17 +81,39 @@
   border: 1px solid #58D3F7;
   border-radius:px
 }
-  .value {
+/* Fliiping Circles */
+/* @group circles container */
+@media (min-width: 48em) {
+  .home-circles {
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    background-image: url('../images/bg-home-circles.jpg?1389106075');
+    background-size: cover;
+  }
+}
+.home-circles {
+  background-position: 50% 0;
+  min-width: 1200px;
+}
+
+
+.circle:first-child {
+  border-top-width: 25px;
+}
+@media (min-width: 48em) {
+  .circle {
     border: 0;
     display: inline-block;
-    margin: ;
+    margin: 5% 0;
     padding: 0;
     position: relative;
     height: 0;
     padding-top: 38.33333%;
     width: 38.33333%;
   }
-  .value .value__contents {
+  .circle .circle__first {
     display: block;
     position: absolute;
     width: 100% !important;
@@ -79,20 +122,53 @@
     margin: 0;
     padding: 0;
   }
-  
-  .value__title {
-    border-radius: 0%;
+  .circle:nth-child(odd) {
+    clear: left;
+    float: left;
+    margin-left: 5%;
+  }
+  .circle:nth-child(even) {
+    clear: right;
+    float: right;
+    margin-right: 5%;
+  }
+}
+.circle {
+  margin: 2.5% 5%;
+}
+
+@media (min-width: 48em) {
+  .circle__first {
+    margin: auto;
+  }
+}
+/* @end */
+/* @group circle text */
+.circle__title {
+  background-color: rgba(255, 255, 255, 0.10);
+}
+@media (min-width: 48em) {
+  .circle__title {
+    border-radius: 50%;
+    border: 2px solid #fff;
     margin: 0;
     height: 100%;
     position: absolute;
     width: 100%;
     padding-top: 18%;
-    background-image: url(../img/bag.jpg);
-    background-repeat: no-repeat;
   }
+}
 
-
-value__title span {
+}
+.circle__title {
+}
+.circle__title h3 {
+  background-size: auto 1.5em;
+  font-size: 1.5em;
+  padding-top: 2.08333em;
+  text-align: center;
+}
+.circle__title span {
   display: block;
   font-size: 1.16667em;
   margin: .5em 0 0;
@@ -100,80 +176,127 @@ value__title span {
   position: relative;
   text-transform: uppercase;
   width: 100%;
+  text-align: center;
 }
-.value__title span:before, .value__title span:after {
+.circle__title span:before, .circle__title span:after {
   content: '';
   display: block;
   height: 3px;
   position: absolute;
   width: 7em;
-  background: #eeeeee;
+  background: #fff;
   left: 0;
   margin: auto;
   right: 0;
 }
-.value__title span:before {
+.circle__title span:before {
   top: 0;
 }
-.value__title span:after {
+.circle__title span:after {
   bottom: 0;
 }
-
-  .value__title span {
+@media (min-width: 48em) {
+  #jumbo1 p,
+  .circle__title span {
     font-size: 1em;
     position: absolute;
   }
-  .value__title span:before, .value__title span:after {
+  .circle__title span:before, .circle__title span:after {
     width: 5em;
   }
-
-
-
-
-
-
-  .value__details {
-    border-radius: 0%;
+}
+@media (min-width: 60em) {
+  #jumbo1 p,
+  .circle__title span {
+    font-size: 1.33333em;
+  }
+}
+@media (min-width: 75em) {
+  #jumbo1 p,
+  .circle__title span {
+    font-size: 1.75em;
+    font-weight: normal;
+  }
+}
+#jumbo1 p {
+  font-weight: 100;
+  margin-right: 2em!important;
+}
+@media (min-width: 48em) {
+  .circle__second {
+    border-radius: 50%;
     margin: 0;
     height: 100%;
     position: absolute;
     width: 100%;
-    background: url(../img/nomura.jpg);
-    background-repeat: no-repeat;
+    background-color: #070719;
     padding: 15% 7%;
   }
+}
 
+@media (min-width: 60em) {
+  .circle__second {
+    padding: 15% 13%;
+  }
+}
 
-
-
-.value__details__title {
+.circle__second__title {
   display: none;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
+  padding-bottom: 2em;
+  padding-top: 2em;
 }
-
-  .value__details__title {
+@media (min-width: 48em) {
+  .circle__second__title {
     display: block;
     font-size: 1em;
     margin: 0 1.8em;
   }
+}
+@media (min-width: 60em) {
+  .circle__second__title {
+    font-size: 2em;
+    margin: 0;
+  }
+}
 
-
-
+.circle__second__text {
+  color: #000;
+}
+@media (min-width: 48em) {
+.circle__second__text {
+    color: #fff;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+@media (min-width: 60em) {
+  .circle__second__text {
+    font-size: 1.25em;
+    line-height: 1.5;
+  }
+}
+@media (min-width: 75em) {
+  .circle__second__text {
+    font-size: 1.5em;
+    line-height: 1.5;
+  }
+}
 
 /* @end */
 /* @group 3d circle flip */
-
-  .value {
+@media (min-width: 48em) {
+  .circle {
     -webkit-perspective: 800px;
     -moz-perspective: 800px;
     -o-perspective: 800px;
-    perspective: 1900px;
+    perspective: 800px;
     position: relative;
   }
 
-  .value__contents {
+  .circle__first {
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     -o-transform-style: preserve-3d;
@@ -184,8 +307,8 @@ value__title span {
     transition: transform 0.5s ease-in-out;
   }
 
-  .value__title,
-  .value__details {
+  .circle__title,
+  .circle__second {
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     -o-backface-visibility: hidden;
@@ -196,23 +319,86 @@ value__title span {
     transform-style: preserve-3d;
   }
 
-  .value__details {
+  .circle__second {
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
     transform: rotateY(180deg);
   }
 
-  .value:focus .value__contents,
-  .value:hover .value__contents {
+  .circle:focus .circle__first,
+  .circle:hover .circle__first {
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
     transform: rotateY(180deg);
   }
+}
+.ie10 .circle__first {
+  transition: none;
+}
+.ie10 .circle__title,
+.ie10 .circle__second {
+  transition: transform .5s ease-in-out;
+}
+.ie10 .circle:hover .circle__first {
+  transform: rotate(0deg);
+}
+.ie10 .circle:hover .circle__first .circle__title,
+.ie10 .circle:hover .circle__first .circle__second {
+  -webkit-transform: rotateY(360deg);
+  -moz-transform: rotateY(360deg);
+  -o-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+}
 
-
+.no-csstransforms3d .circle__second {
+  display: none;
+}
+.no-csstransforms3d .circle:hover .circle__first,
+.no-csstransforms3d .circle:hover .circle__second {
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+.no-csstransforms3d .circle:hover .circle__title {
+  display: none;
+}
+.no-csstransforms3d .circle:hover .circle__second {
+  display: block;
+}
 /* @end */
 
 /* @end */
 /* @end of Flipping Circles*/
+#jumbotron2 img {
+  height: %;
+  width: 80%;
+  padding-bottom: 20px;
+}
+footer {
+  border-top:1px solid #fff;
+  bottom: 0;
+  height: auto;
+  left: 0;
+  font-size: small;
+  width:100%;
+  background-color:#151515;
+  margin-bottom: 0px;
+}
+footer p{
+  text-align:center;
+  font-family:'Open Sans',sans-serif;
+  font-size:13px;
+  color:#FF8000;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+footer p.text-muted {
+  color: #fff;
+}
+#change .navbar {
+  position: fixed;
+  width: 100%;
+}

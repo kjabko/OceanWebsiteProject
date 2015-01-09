@@ -36,8 +36,11 @@
      <section>
          <?php include 'modules/navigation.php'; ?>
          <?php include 'modules/carousel.php'; ?>
+         <?php include 'modules/jumbotron_home.php'; ?>
          <?php include 'modules/flipping_circles.php'; ?>
+         <?php include 'modules/4col_jumbotron.php'; ?>
          <?php include 'modules/footer.php'; ?>
+
      </section>
         
                        
