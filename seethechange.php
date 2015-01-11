@@ -24,7 +24,7 @@
         <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300' rel='stylesheet' type='text/css'>
 
         <link href="css/carousel.css" rel="stylesheet">
-        <link href="css/mycss.css" rel="stylesheet"> 
+        <link href="css/mycss2.css" rel="stylesheet"> 
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
@@ -34,7 +34,11 @@
         <![endif]-->
          
      <section>
-         <?php include 'modules/scrollspy.php'; ?>
+         <?php include 'modules/navigation_one_page.php'; ?>
+         <?php include 'modules/clichange_section.php'; ?>
+         <?php include 'modules/overfishing_section.php'; ?>
+         <?php include 'modules/pollution_section.php'; ?>
+         <?php include 'modules/next_section.php'; ?>
          <?php include 'modules/footer.php'; ?>
 
      </section>
@@ -50,8 +54,8 @@
         <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
         <script src="js/jquery.flipping_text.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
-
         <script src="js/main.js"></script>
+        <script src="js/jquery.nav.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
@@ -61,6 +65,13 @@
             e.src='//www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-');ga('send','pageview');
+        </script>
+        <script>
+            $('#top-nav').onePageNav({
+              currentClass: 'current',
+              changeHash: false,
+              scrollSpeed: 1200
+            });
         </script>
     </body>
 </html>
