@@ -64,22 +64,24 @@ li.active {
 .navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-right>li>a:hover {
   padding-bottom: 3px; 
   margin-top: 0px;
-  border-bottom:3px solid #58D3F7;
   color: #58D3F7;
 }
 #brand img {
   height: 40px;
   width: 80px;
-  margin-top: 5px;
+  margin-top: 10px;
   padding-top: px;
   vertical-align: middle;
-  margin-left: 40%;
+  margin-left: 20%;
   border: 0px solid #58D3F7;
   border-radius:px
 }
 #brand img:hover {
   border: 1px solid #58D3F7;
   border-radius:px
+}
+.navbar-form {
+  margin-right: 3%;
 }
 /* Fliiping Circles */
 /* @group circles container */

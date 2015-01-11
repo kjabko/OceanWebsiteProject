@@ -10,9 +10,9 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="index.php"><i class="fa fa-home">&nbsp&nbspHome</i></a></li>
-            <li><a href="seethechange.php"><i class="fa fa-warning">&nbsp&nbspSee the Change</i></a></li>
-            <li><a href="utilities"><i class="fa fa-medkit">&nbsp&nbspUtilities</i></a></li>
+            <li><a href="index.php"><i class="fa fa-home">&nbsp&nbsp</i></a></li>
+            <li><a href="seethechange.php">See the Change</a></li>
+            <li><a href="utilities">Utilities</a></li>
           </ul>
           <form class="navbar-form navbar-right" role="search">
         <div class="form-group">
