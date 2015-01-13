@@ -1,8 +1,7 @@
-<div class="block" id="overfishing_section">
+<div class="block" id="fish">
 <h1 class="page-header">
-
-</h1><img src="img/overfishing.png" alt="overfishing">
-
+	Sustainable Fish
+</h1>
 
 <p>Lorem ipsum dolor sit amet, no ius nulla scriptorem, ugue vocibus percipitur nam te. Sea clita omnium in, ne ius corpora contentiones. Altera dissentias te duo. Mediocrem adolescens reprimique usu no, duo cu ipsum oportere urbanitas.
 

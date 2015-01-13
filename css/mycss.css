@@ -1,4 +1,6 @@
-
+body {
+  overflow-x: hidden;
+}
  
  h1, h2, h3, h5, h6, p {
   font-family: 'Oxygen', sans-serif;
@@ -38,9 +40,6 @@ section>.jumbotron {
   margin-bottom: 1px;
   padding-bottom: 0px;  
 }
-li.active {
-  background: @green;
-}
 .navbar-nav{
   font-family: 'Oxygen', sans-serif;
   font-weight:300;
@@ -48,7 +47,7 @@ li.active {
 }
 .navbar-default .navbar-nav>li {
   margin-left: 50px;
-  margin-bottom: 8px;
+  padding-bottom: 10px;
   margin-top:4px;
 
 }

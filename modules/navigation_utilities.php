@@ -10,12 +10,11 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav" id="top-nav">
             <li><a href="index.php"><<<&nbsp<i class="fa fa-home"></i></a></li>
-            <li><a href="#clichange_section">Climate Change</a></li>            
-            <li><a href="#overfishing_section">Overfishing</a></li>
-            <li><a href="#pollution_section">Pollution</a></li>
-            <li><a href="#next_section">Next Section</a></li>
-            <li><a href="utilities.php"><i class="fa fa-gears">&nbsp>>></i></a></li>
+            <li><a href="seethechange.php"><<<&nbsp&nbspSee the Change</a></li>
+            <li><a href="#carbon">Carbon Calculator</a></li>            
+            <li><a href="#fish">Sustainable Fish</a></li>
+            <li><a href="#donation">Donation</a></li>
+            <li><a href="#next_section_2">Next Section</a></li>
           </ul>
-          
         </div><!--/.nav-collapse -->
 </nav>

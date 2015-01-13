@@ -12,7 +12,7 @@
           <ul class="nav navbar-nav">
             <li><a href="index.php"><i class="fa fa-home">&nbsp&nbsp</i></a></li>
             <li><a href="seethechange.php">See the Change</a></li>
-            <li><a href="utilities">Utilities</a></li>
+            <li><a href="utilities.php">Utilities</a></li>
           </ul>
           <form class="navbar-form navbar-right" role="search">
         <div class="form-group">
