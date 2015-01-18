@@ -27,6 +27,12 @@
         <link href="css/mycss2.css" rel="stylesheet"> 
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <link rel="stylesheet" href="ammap/ammap.css" type="text/css">
+        <script src="ammap/ammap.js" type="text/javascript"></script>
+        <!-- map file should be included after ammap.js -->
+        <script src="ammap/maps/js/worldLow.js" type="text/javascript"></script>
+        <script src="ammap/maps/js/continentsLow.js" type="text/javascript"></script>
+        
     </head>
     <body id="change">
         <!--[if lt IE 7]>
@@ -36,6 +42,7 @@
      <section>
          <?php include 'modules/navigation_one_page.php'; ?>
          <?php include 'modules/clichange_section.php'; ?>
+         <?php include 'modules/map.php'; ?>
          <?php include 'modules/overfishing_section.php'; ?>
          <?php include 'modules/pollution_section.php'; ?>
          <?php include 'modules/next_section.php'; ?>

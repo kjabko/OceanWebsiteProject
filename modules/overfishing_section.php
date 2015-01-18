@@ -1,44 +1,69 @@
 <div class="block" id="overfishing_section">
 <h1 class="page-header">
 
-</h1><img src="img/overfishing.png" alt="overfishing">
+</h1>
+<div id="overfish_pic"></div>
+
+		<h1 class="featurette-heading"><span>Let’s Make Overfishing History….</span></h1>
+   
 
 
-<p>Lorem ipsum dolor sit amet, no ius nulla scriptorem, ugue vocibus percipitur nam te. Sea clita omnium in, ne ius corpora contentiones. Altera dissentias te duo. Mediocrem adolescens reprimique usu no, duo cu ipsum oportere urbanitas.
 
-Mei ut purto laudem, id quod audire vituperata usu. Cu sea rebum legere evertitur. An mel vide munere feugait, et dico legere eos, ad pri tractatos iracundia. Novum mundi cu eos, vis aperiam dolores voluptaria et. Per et lorem congue. Utamur voluptatum ei mei, id duis putant repudiandae nam.
+<h2>What is Overfishing?</h2>
+<p class="lead">Overfishing occurs when more fish are caught than are reproduced through natural reproduction. Overfishing has serious consequences. The results not only affect the balance of life in the oceans, but also the social and economic wellbeing of coastal communities who depend on fish for their way of life.
 
-Eam fugit detraxit te, ius nibh viris sapientem id. Putant veritus vim et, mei te nostrud intellegam, eirmod prompta usu ea. Assum putant scriptorem ea sea, error vocent fierent eu vim. Posse sonet volutpat eum at, mei appetere expetenda ex. Te usu illud everti invenire.
+Future Consequences of Continued Overfishing
+•	No more fish for human consumption – this could happen in a few decades!
+•	Huge increase in jellyfish 
+•	Marine ecosystems affected
+•	Devastating economic effects on communities
+•	Extinction of sea life and sea animals
 
-Docendi recusabo definitiones qui eu. Sit alii deleniti suavitate no. Impetus intellegam nec an, tota nonumes perpetua vim ex. His habeo facilis dolores ut, at vel solum repudiandae. Adhuc utamur appellantur cu quo. Quando facilisi pertinacia vis ad.
 
-Odio adipiscing posidonium sit cu. Te duo veritus intellegebat, dolorum delectus usu ei. Qui et omnes veniam accumsan, mutat splendide ius ea. At dico atomorum intellegebat sit.
-Lorem ipsum dolor sit amet, no ius nulla scriptorem, ugue vocibus percipitur nam te. Sea clita omnium in, ne ius corpora contentiones. Altera dissentias te duo. Mediocrem adolescens reprimique usu no, duo cu ipsum oportere urbanitas.
+-------------------------------------------------------------------------------------------------
 
-Mei ut purto laudem, id quod audire vituperata usu. Cu sea rebum legere evertitur. An mel vide munere feugait, et dico legere eos, ad pri tractatos iracundia. Novum mundi cu eos, vis aperiam dolores voluptaria et. Per et lorem congue. Utamur voluptatum ei mei, id duis putant repudiandae nam.
+Causes of Overfishing
 
-Eam fugit detraxit te, ius nibh viris sapientem id. Putant veritus vim et, mei te nostrud intellegam, eirmod prompta usu ea. Assum putant scriptorem ea sea, error vocent fierent eu vim. Posse sonet volutpat eum at, mei appetere expetenda ex. Te usu illud everti invenire.
+Overcapacity
+Worldwide, we have way too many fishing fleets. On a global scale we have enough fishing fleet capacity to catch fish from four planets the size of earth.
 
-Docendi recusabo definitiones qui eu. Sit alii deleniti suavitate no. Impetus intellegam nec an, tota nonumes perpetua vim ex. His habeo facilis dolores ut, at vel solum repudiandae. Adhuc utamur appellantur cu quo. Quando facilisi pertinacia vis ad.
+Commercial Fishing Practices
+Fishing methods are having a devastating effect on our marine ecosystems
 
-Odio adipiscing posidonium sit cu. Te duo veritus intellegebat, dolorum delectus usu ei. Qui et omnes veniam accumsan, mutat splendide ius ea. At dico atomorum intellegebat sit.
-Lorem ipsum dolor sit amet, no ius nulla scriptorem, ugue vocibus percipitur nam te. Sea clita omnium in, ne ius corpora contentiones. Altera dissentias te duo. Mediocrem adolescens reprimique usu no, duo cu ipsum oportere urbanitas.
+Bycatch discards
+Bycatch occurs as modern fishing techniques cover extensive areas and is and highly unselective. The nets in addition to catching the target fish also catch many other marine animals as well. These are discarded overboard dead or to die. https://www.youtube.com/watch?v=EbrDfh1kL1g
 
-Mei ut purto laudem, id quod audire vituperata usu. Cu sea rebum legere evertitur. An mel vide munere feugait, et dico legere eos, ad pri tractatos iracundia. Novum mundi cu eos, vis aperiam dolores voluptaria et. Per et lorem congue. Utamur voluptatum ei mei, id duis putant repudiandae nam.
 
-Eam fugit detraxit te, ius nibh viris sapientem id. Putant veritus vim et, mei te nostrud intellegam, eirmod prompta usu ea. Assum putant scriptorem ea sea, error vocent fierent eu vim. Posse sonet volutpat eum at, mei appetere expetenda ex. Te usu illud everti invenire.
+Illegal Fishing
+Poor fisheries management in certain countries also contributes to the problem of overfishing. Illegal and pirate fishing vessels often ignore the regulations on quotas, net sizes and permitted fishing areas.
 
-Docendi recusabo definitiones qui eu. Sit alii deleniti suavitate no. Impetus intellegam nec an, tota nonumes perpetua vim ex. His habeo facilis dolores ut, at vel solum repudiandae. Adhuc utamur appellantur cu quo. Quando facilisi pertinacia vis ad.
+Bottom trawling
+Bottom trawling is the process whereby boats drag large nets along the seabed destroying plant life, coal reefs and anything in their path leaving muddy seabeds. These large nets catch young small fish, marine turtles, sharks, seabirds, whales, dolphins and porpoises. https://www.youtube.com/watch?v=bUHcD_jTgVA
 
-Odio adipiscing posidonium sit cu. Te duo veritus intellegebat, dolorum delectus usu ei. Qui et omnes veniam accumsan, mutat splendide ius ea. At dico atomorum intellegebat sit.
-Lorem ipsum dolor sit amet, no ius nulla scriptorem, ugue vocibus percipitur nam te. Sea clita omnium in, ne ius corpora contentiones. Altera dissentias te duo. Mediocrem adolescens reprimique usu no, duo cu ipsum oportere urbanitas.
 
-Mei ut purto laudem, id quod audire vituperata usu. Cu sea rebum legere evertitur. An mel vide munere feugait, et dico legere eos, ad pri tractatos iracundia. Novum mundi cu eos, vis aperiam dolores voluptaria et. Per et lorem congue. Utamur voluptatum ei mei, id duis putant repudiandae nam.
+=--------------------------------------------------------------------------------------
 
-Eam fugit detraxit te, ius nibh viris sapientem id. Putant veritus vim et, mei te nostrud intellegam, eirmod prompta usu ea. Assum putant scriptorem ea sea, error vocent fierent eu vim. Posse sonet volutpat eum at, mei appetere expetenda ex. Te usu illud everti invenire.
+Did You Know
+•	Over 300,000 whales, dolphins, and porpoises die from entanglement in fishing nets each year
 
-Docendi recusabo definitiones qui eu. Sit alii deleniti suavitate no. Impetus intellegam nec an, tota nonumes perpetua vim ex. His habeo facilis dolores ut, at vel solum repudiandae. Adhuc utamur appellantur cu quo. Quando facilisi pertinacia vis ad.
+•	Hundreds of thousands of endangered loggerhead turtles and endangered leatherback turtles drown annually on longlines set to catch swordfish and tuna
 
-Odio adipiscing posidonium sit cu. Te duo veritus intellegebat, dolorum delectus usu ei. Qui et omnes veniam accumsan, mutat splendide ius ea. At dico atomorum intellegebat sit.</p>
-<img src="img/nomura.jpg">
+
+
+
+---------------------------------------------------------------------------------------------------
+What You Can Do
+•	Reduce the amount of fish you eat
+•	Choose fish wisely – only buy sustainable fish
+•	Buy fish that is caught using sustainable methods
+</p>
+<img src="img/panelii kopia.jpg">
+
+
+
+
+
+
+
+
 </div><!--end of overfishing_section-->

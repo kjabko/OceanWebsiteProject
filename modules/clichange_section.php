@@ -1,20 +1,20 @@
 <div class="block" id="clichange_section">
 <div id="ice_pic">
-<img src="img/ice_melting.jpg" alt="ice_melting">
 </div>
 	<div id="cli_heading">
-		<h1 class="featurette-heading"><span>Lorem ipsum dolor sit amet, no ius nulla scriptorem. Ugue vocibus percipitur nam te.</span></h1>
-    </div> 
-    <hr class="featurette-divider"> 
+		<h1 class="featurette-heading"><span><i>“We know we’re going to have sea rise. This is literally a one-way street now. The only thing we’re discussing now is how fast, it’s not whether anymore, and then eventually how much.”</i></span></h1>
+    </div>  
+      <section class="container">
       <div class="row featurette">
         <div class="col-md-7">
-           <h2>Donec ullamcorper</h2><p class="lead">nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo. Sea clita omnium in, ne ius corpora contentiones. Altera dissentias te duo. Mediocrem adolescens reprimique usu no, duo cu ipsum oportere urbanitas.
-Mei ut purto laudem, id quod audire vituperata usu. Cu sea rebum legere evertitur. An mel vide munere feugait, et dico legere eos, ad pri tractatos iracundia. Novum mundi cu eos, vis aperiam dolores voluptaria et. Per et lorem congue. Utamur voluptatum ei mei, id duis putant repudiandae nam.
-Eam fugit detraxit te, ius nibh viris sapientem id. Putant veritus vim et, mei te nostrud intellegam, eirmod prompta usu ea. Assum putant scriptorem ea sea, error vocent fierent eu vim. Posse sonet volutpat eum at, mei appetere expetenda ex. Te usu illud everti invenire.
-Docendi recusabo definitiones qui eu. Sit alii deleniti suavitate no. Impetus intellegam nec an, tota nonumes perpetua vim ex. His habeo facilis dolores ut, at vel solum repudiandae. Adhuc utamur appellantur cu quo. Quando facilisi pertinacia vis ad.
-Odio adipiscing posidonium sit cu. Te duo veritus intellegebat, dolorum delectus usu ei. Qui et omnes veniam accumsan, mutat splendide ius ea. At dico atomorum intellegebat sit.
-Lorem ipsum dolor sit amet, no ius nulla scriptorem, ugue vocibus percipitur nam te. Sea clita omnium in, ne ius corpora contentiones. Altera dissentias te duo.</p>
-        <!-- Button trigger modal -->
+           <h2>Sea level rise</h2><p class="lead">Since the mid-19th century, the sea level has been rising, as a result of human-induced climate change causing thermal expansion of water, the melting of glaciers and ice caps and the loss of ice mass from Greenland and Antarctica.<br>
+The 20th century, saw rises in the sea level the sea of about 15-20 centimeters per year. The rate at the end of the century was greater than during the earlier part of the century. Alarmingly Satellite measurements taken over the past decade indicate that the rate has increased has jumped to about 30 centimeters per year.<br>
+Continued increases in the sea level will in time have a dramatic impact on many coastal environments. Thousands of Millions of people live in coastal areas that are less than 10 meters above sea level, and two-thirds of the world’s cities have populations over five million located in at-risk areas. With the sea level projected to rise very large numbers of people in vulnerable locations will be forced to relocate.
+</p>
+        </div>
+        <div class="col-md-5">
+          <img src="img/sea_level.jpg" class="featurette-image img-responsive img-rounded" data-src="holder.js/500x500/auto" alt="flood">
+          <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
   Launch Video
 </button>
@@ -25,7 +25,7 @@ Lorem ipsum dolor sit amet, no ius nulla scriptorem, ugue vocibus percipitur nam
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Rising Sea Level</h4>
+        <h4 class="modal-title" id="myModalLabel">Jazz</h4>
       </div>
       <div class="modal-body">
         <object height="360" width="500"><param name="movie" value="http://www.youtube.com/v/?v=_4YUieDlAuM&autoplay=1" /><embed height="360" src="http://www.youtube.com/v/?v=_4YUieDlAuM&autoplay=1" type="application/x-shockwave-flash" width="425"></embed></object>
@@ -37,33 +37,31 @@ Lorem ipsum dolor sit amet, no ius nulla scriptorem, ugue vocibus percipitur nam
   </div>
 </div>
         </div>
-        <div class="col-md-5">
-          <img src="img/manhattan-flood.jpg" class="featurette-image img-responsive img-rounded" data-src="holder.js/500x800/auto" alt="Generic placeholder image">
-        </div>
       </div>
-
+</section>
       <hr class="featurette-divider">
 		<div id="cli_heading_2"> 
-    		<h1 class="featurette-heading"><span>Lorem ipsum dolor sit amet, no ius nulla scriptorem. Ugue vocibus percipitur nam te.</span></h1>
+    		<h1 class="featurette-heading"><span><i>"For humans, the Arctic is a harshly inhospitable place, but the conditions there are precisely what polar bears require to survive - and thrive. 'Harsh' to us is 'home' for them. Take away the ice and snow, increase the temperature by even a little, and the realm that makes their lives possible literally melts away."</i></span></h1>
          </div>
+      <section class="container">
       <div class="row featurette">
         <div class="col-md-5">
-          <img src="img/dry_ground.jpg" class="featurette-image img-responsive img-rounded" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img src="img/sea_temp.gif" class="featurette-image img-responsive img-rounded" data-src="holder.js/500x500/auto" alt="sea_temp">
           <!-- Button trigger modal -->
-<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal">
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_2">
   Launch Video
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal_2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Rising Sea Level</h4>
+        <h4 class="modal-title" id="myModalLabel">Pat</h4>
       </div>
       <div class="modal-body">
-        <object height="360" width="500"><param name="movie" value="http://www.youtube.com/v/?v=_4YUieDlAuM&autoplay=1" /><embed height="360" src="http://www.youtube.com/v/?v=_4YUieDlAuM&autoplay=1" type="application/x-shockwave-flash" width="425"></embed></object>
+        <object height="360" width="500"><param name="movie" value="http://www.youtube.com/v/?v=vTig9gKegQk&autoplay=1" /><embed height="360" src="http://www.youtube.com/v/?v=vTig9gKegQk&autoplay=1" type="application/x-shockwave-flash" width="425"></embed></object>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
@@ -73,45 +71,43 @@ Lorem ipsum dolor sit amet, no ius nulla scriptorem, ugue vocibus percipitur nam
 </div>
         </div>
         <div class="col-md-7">
-           <h2>Donec ullamcorper</h2><p class="lead">nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo. Sea clita omnium in, ne ius corpora contentiones. Altera dissentias te duo. Mediocrem adolescens reprimique usu no, duo cu ipsum oportere urbanitas.
-Mei ut purto laudem, id quod audire vituperata usu. Cu sea rebum legere evertitur. An mel vide munere feugait, et dico legere eos, ad pri tractatos iracundia. Novum mundi cu eos, vis aperiam dolores voluptaria et. Per et lorem congue. Utamur voluptatum ei mei, id duis putant repudiandae nam.
-Eam fugit detraxit te, ius nibh viris sapientem id. Putant veritus vim et, mei te nostrud intellegam, eirmod prompta usu ea. Assum putant scriptorem ea sea, error vocent fierent eu vim. Posse sonet volutpat eum at, mei appetere expetenda ex. Te usu illud everti invenire.
-Docendi recusabo definitiones qui eu. Sit alii deleniti suavitate no. Impetus intellegam nec an, tota nonumes perpetua vim ex. His habeo facilis dolores ut, at vel solum repudiandae. Adhuc utamur appellantur cu quo. Quando facilisi pertinacia vis ad.
-Odio adipiscing posidonium sit cu. Te duo veritus intellegebat, dolorum delectus usu ei. Qui et omnes veniam accumsan, mutat splendide ius ea. At dico atomorum intellegebat sit.
-Lorem ipsum dolor sit amet, no ius nulla scriptorem, ugue vocibus percipitur nam te. Sea clita omnium in, ne ius corpora contentiones. Altera dissentias te duo.</p>
+           <h2>Rising sea temperatures</h2><p class="lead">Scientific research is finding that marine ecosystems are very sensitive to even the most modest temperature change.<br> 
+One of the ocean organisms most vulnerable to temperature change is coral. There is evidence that reefs will bleach by ejecting their symbiotic algae at even a slight persistent temperature rise. Bleaching slows coral growth, making coral susceptible to disease leading to large-scale reef die-off. Millions of people around the world depend on the resources coming from coral reefs for their survival, so their disappearance would seriously adversely affect livelihoods.<br>
+Krill an important link at the base of the food chain will reproduce in significantly smaller numbers when ocean temperatures rise. This will affect the life cycle of krill eaters, such as penguins and seals—which will in turn causes food shortages for higher predators.<br>
+Warmer sea temperatures also facilitate the spread of invasive species and marine diseases. This can lead to forced migrations and even species extinctions.<br>
+Some weather experts believe we are currently seeing the effects of higher ocean temperatures in the form of stronger and more frequent tropical storms, hurricanes, and cyclones. Warmer surface water makes it easier for small ocean storms to escalate into larger, more powerful weather systems. 
+</p>
         </div>
       </div>
-
+</section>
       <hr class="featurette-divider">
 		<div id="cli_heading_3"> 
-    		<h1 class="featurette-heading"><span>Lorem ipsum dolor sit amet, no ius nulla scriptorem. Ugue vocibus percipitur nam te.</span></h1>
+    		<h1 class="featurette-heading"><span><i>"Ocean acidification has the potential to significantly alter ocean life, including fisheries."</i></span></h1>
          </div>
+    <section class="container">
       <div class="row featurette">
         <div class="col-md-7">
-           <h2>Donec ullamcorper</h2><p class="lead">nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo. Sea clita omnium in, ne ius corpora contentiones. Altera dissentias te duo. Mediocrem adolescens reprimique usu no, duo cu ipsum oportere urbanitas.
-Mei ut purto laudem, id quod audire vituperata usu. Cu sea rebum legere evertitur. An mel vide munere feugait, et dico legere eos, ad pri tractatos iracundia. Novum mundi cu eos, vis aperiam dolores voluptaria et. Per et lorem congue. Utamur voluptatum ei mei, id duis putant repudiandae nam.
-Eam fugit detraxit te, ius nibh viris sapientem id. Putant veritus vim et, mei te nostrud intellegam, eirmod prompta usu ea. Assum putant scriptorem ea sea, error vocent fierent eu vim. Posse sonet volutpat eum at, mei appetere expetenda ex. Te usu illud everti invenire.
-Docendi recusabo definitiones qui eu. Sit alii deleniti suavitate no. Impetus intellegam nec an, tota nonumes perpetua vim ex. His habeo facilis dolores ut, at vel solum repudiandae. Adhuc utamur appellantur cu quo. Quando facilisi pertinacia vis ad.
-Odio adipiscing posidonium sit cu. Te duo veritus intellegebat, dolorum delectus usu ei. Qui et omnes veniam accumsan, mutat splendide ius ea. At dico atomorum intellegebat sit.
-Lorem ipsum dolor sit amet, no ius nulla scriptorem, ugue vocibus percipitur nam te. Sea clita omnium in, ne ius corpora contentiones. Altera dissentias te duo.</p>
+           <h2>Ocean acidification</h2><p class="lead">Each year the oceans absorb a third of human emissions of carbon dioxide (CO2) dissolving it in the oceans. Dissolved CO2 creates carbonic acid, which reduces the ocean pH level, making it more acidic<br>
+              Ocean acidification will impact marine ecosystems. A decrease in ocean pH lowers the amount of calcium carbonate (the substance created when CO2 is initially dissolved) in the water.  Calcium carbonate is essential for marine organisms such as coral, shellfish, crustaceans, and mollusks to build their shells.<br> 
+              If the pH drops by the expected 0.5 during this century, the resulting effect would be a 60% drop in available calcium carbonate. This decrease would put the productivity and even the survival of thousands of marine species at risk.
+              </p>
         </div>
         <div class="col-md-5">
-          <img src="img/worm_map.gif" class="featurette-image img-responsive img-rounded" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img src="img/acid_diag.jpg" class="featurette-image img-responsive img-rounded" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
           <!-- Button trigger modal -->
-<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_3">
   Launch Video
 </button>
-
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal_3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Rising Sea Level</h4>
+        <h4 class="modal-title" id="myModalLabel">Ocean Acidification</h4>
       </div>
       <div class="modal-body">
-        <object height="360" width="500"><param name="movie" value="http://www.youtube.com/v/?v=_4YUieDlAuM&autoplay=1" /><embed height="360" src="http://www.youtube.com/v/?v=_4YUieDlAuM&autoplay=1" type="application/x-shockwave-flash" width="425"></embed></object>
+        <object height="360" width="500"><param name="movie" value="http://www.youtube.com/v/?v=Wo-bHt1bOsw&autoplay=1" /><embed height="360" src="http://www.youtube.com/v/?v=Wo-bHt1bOsw&autoplay=1" type="application/x-shockwave-flash" width="425"></embed></object>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
@@ -119,12 +115,12 @@ Lorem ipsum dolor sit amet, no ius nulla scriptorem, ugue vocibus percipitur nam
     </div>
   </div>
 </div>
+
         </div>
       </div>
-
-      <hr class="featurette-divider">
-
+</section>
       <!-- /END THE FEATURETTES -->
+
 
 </div><!--end of clichange_section-->
 

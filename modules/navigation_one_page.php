@@ -13,7 +13,7 @@
             <li><a href="#clichange_section">Climate Change</a></li>            
             <li><a href="#overfishing_section">Overfishing</a></li>
             <li><a href="#pollution_section">Pollution</a></li>
-            <li><a href="#next_section">Next Section</a></li>
+            <li><a href="#sea_level">Map</a></li>
             <li><a href="utilities.php"><i class="fa fa-gears">&nbsp>>></i></a></li>
           </ul>
           
