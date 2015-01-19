@@ -6,14 +6,20 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a id="brand" href="#"><img src="img/sea_logo.jpg" class="img-responsive" alt="seachange"></a>
+        <a href="#" id="brand"><img src="logos/lg_logo_rev.png" class="img-responsive" alt="seachange"></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="index.php"><i class="fa fa-home">&nbsp&nbsp</i></a></li>
             <li><a href="seethechange.php">See the Change</a></li>
             <li><a href="utilities.php">Utilities</a></li>
           </ul>
+          <div class="buttons">
+            <a href="#"><img src="img/donate_single.png" border="0" data-toggle="modal" data-target="#myModal"></a>
+            <a href="#"><img src="img/join_single.png" border="0"></a>
+          </div>
+          <div id="nav_search">
+          <img src="logos/magnifying7.png" alt="search" id="trigger">
+          </div>
           <form class="navbar-form navbar-right" role="search">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">

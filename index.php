@@ -36,6 +36,7 @@
      <section>
          <?php include 'modules/navigation.php'; ?>
          <?php include 'modules/carousel.php'; ?>
+         <?php include 'modules/donation_modal.php'; ?>
          <?php include 'modules/jumbotron_home.php'; ?>
          <?php include 'modules/flipping_circles.php'; ?>
          <?php include 'modules/4col_jumbotron.php'; ?>
@@ -65,6 +66,14 @@
             e.src='//www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
+
+            //hide show search bar
+            $(document).ready(function(){
+                $('form').hide();
+                $('#nav_search').click(function(){
+                $('form').toggle(800);
+                });
+            });
         </script>
     </body>
 </html>

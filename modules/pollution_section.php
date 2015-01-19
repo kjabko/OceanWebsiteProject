@@ -39,5 +39,60 @@ Eam fugit detraxit te, ius nibh viris sapientem id. Putant veritus vim et, mei t
 Docendi recusabo definitiones qui eu. Sit alii deleniti suavitate no. Impetus intellegam nec an, tota nonumes perpetua vim ex. His habeo facilis dolores ut, at vel solum repudiandae. Adhuc utamur appellantur cu quo. Quando facilisi pertinacia vis ad.
 
 Odio adipiscing posidonium sit cu. Te duo veritus intellegebat, dolorum delectus usu ei. Qui et omnes veniam accumsan, mutat splendide ius ea. At dico atomorum intellegebat sit.</p>
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Your Information</legend>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for=""></label>
+  <div class="controls">
+    <input id="" name="" type="text" placeholder="Name (Last, First)" class="input-xlarge">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for=""></label>
+  <div class="controls">
+    <input id="" name="" type="text" placeholder="Address line 1" class="input-xlarge">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for=""></label>
+  <div class="controls">
+    <input id="" name="" type="text" placeholder="Address line 2" class="input-xlarge">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for=""></label>
+  <div class="controls">
+    <input id="" name="" type="text" placeholder="City/Town" class="input-xlarge">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for=""></label>
+  <div class="controls">
+    <input id="" name="" type="text" placeholder="Country" class="input-xlarge">
+    
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+
 <img src="img/garbage.jpg">
 </div><!--end of pollution_section-->
