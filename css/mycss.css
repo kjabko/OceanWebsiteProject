@@ -5,6 +5,7 @@ body {
  h1, h2, h3, h5, h6, p {
   font-family: 'Oxygen', sans-serif;
   color: #000;
+  font-weight: normal;
  } 
 .jumbotron {
   background-color: #fff;
@@ -62,7 +63,7 @@ body {
 }
 .navbar-nav{
   font-family: 'Oxygen', sans-serif;
-  font-weight:300;
+  font-weight: normal;
   font-size:2em;
   display: inline !important;
   margin-left: 3% !important;
@@ -108,33 +109,176 @@ body {
   margin-top: -60px !important;
   margin-right: 1%;
 }
-.buttons img {
-  display: inline;
-  margin-top: -17px;
-  margin-right: -22px;
-}
+
 #nav_search img {
   clear: both;
 }
-
-@media (min-width: 768px) {
-  .buttons {
+}
+.buttons {
     float: left;
   }
+#donate {
+  border: 1px solid #FE642E;
+  height: 35px;
+  width: 120px;
+  background-color: #FE642E;
+  color: #000;
+  text-align: center;
+  font-size: 1.50em;
+  display: inline-block;
+  margin-right: -2px;
+  cursor: pointer;
+  }
+#join {
+  border: 1px solid #298A08;
+  height: 35px;
+  width: 120px;
+  background-color: #298A08;
+  color: #000;
+  text-align: center;
+  font-size: 1.50em;
+  display: inline-block;
+  margin-left: -2px;
+  cursor: pointer;
+  }
+@media (min-width: 768px) {
+  .buttons {
+    float: right;
+    margin-right: 6%;
+    
+  }
+#donate {
+  border: 1px solid #FE642E;
+  height: 35px;
+  width: 100px;
+  background-color: #FE642E;
+  color: #000;
+  text-align: center;
+  font-size: 1.50em;
+  display: inline-block;
+  margin-right: -2px;
+  cursor: pointer;
+  }
+#join {
+  border: 1px solid #298A08;
+  height: 35px;
+  width: 100px;
+  background-color: #298A08;
+  color: #000;
+  text-align: center;
+  font-size: 1.50em;
+  display: inline-block;
+  margin-left: -2px;
+  cursor: pointer;
+  }
+.navbar-form .form-control {
+  border-radius: 0px;
+  margin-right: -2px;
+  width: 140px;
+}
+.btn-default {
+  border-radius: 0px;
+  margin-left: -2px;
+}
+.navbar-form {
+  margin-right: 3% !important;
+}
+
 }
 @media (min-width: 992px) {
   .buttons {
     float: right;
-    margin-right: 20%;
+    margin-right: 6%;
   }
+#donate {
+  border: 1px solid #FE642E;
+  height: 35px;
+  width: 120px;
+  background-color: #FE642E;
+  color: #000;
+  text-align: center;
+  font-size: 1.50em;
+  display: inline-block;
+  margin-right: -2px;
+  cursor: pointer;
+  }
+#join {
+  border: 1px solid #298A08;
+  height: 35px;
+  width: 120px;
+  background-color: #298A08;
+  color: #000;
+  text-align: center;
+  font-size: 1.50em;
+  display: inline-block;
+  margin-left: -2px;
+  cursor: pointer;
+  }
+.navbar-form .form-control {
+  border-radius: 0px;
+  margin-right: -2px;
+  width: 140px;
+}
+.btn-default {
+  border-radius: 0px;
+  margin-left: -2px;
+}
+.navbar-form {
+  margin-right: 5% !important;
+}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .buttons {  
   float: right;
-  margin-right: 6%;
+  margin-right: 5%;
+  display: inline;
   }
+#donate {
+  border: 1px solid #FE642E;
+  height: 35px;
+  width: 120px;
+  background-color: #FE642E;
+  color: #000;
+  text-align: center;
+  font-size: 1.50em;
+  display: inline-block;
+  margin-right: -2px;
+  cursor: pointer;
+  }
+#join {
+  border: 1px solid #298A08;
+  height: 35px;
+  width: 120px;
+  background-color: #298A08;
+  color: #000;
+  text-align: center;
+  font-size: 1.50em;
+  display: inline-block;
+  margin-left: -2px;
+  cursor: pointer;
+  }
+.navbar-form .form-control {
+  border-radius: 0px;
+  margin-right: -2px;
+  width: 140px;
+}
+.btn-default {
+  border-radius: 0px;
+  margin-left: -2px;
+}
+.navbar-form {
+  margin-right: 4% !important;
+}
+
+}
+#join:hover {
+  background-color: #04B404;
+}
+#donate:hover {
+  background-color: #FA8258;
 }
 /*End of navbar css*/
 
@@ -496,12 +640,12 @@ footer p.text-muted {
     outline:none;
   }
 @media screen and (min-width: 768px) {  
-  #myModal .modal-dialog  {
+  #myModal_donate .modal-dialog  {
     width: 900px;
   }
 }
-#myModal .modal-dialog  {
-  width: 75%;
+#myModal_donate .modal-dialog  {
+  width: 65%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -534,4 +678,29 @@ footer p.text-muted {
 }*/
 .modal-content .donation_list h3 {
   margin-left: 3%;
+}
+.modal-body h1 {
+    text-align: center;
+   -webkit-text-fill-color: #000; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #fff;
+   font-weight: bold;
+}
+.modal-body p {
+  text-align: left;
+  font-size: 1.50em;
+  -webkit-text-fill-color: #000; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #fff;
+   font-weight: bold;
+}
+.modal-body h2 {
+  text-align: left;
+  -webkit-text-fill-color: #000; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #fff;
+   font-weight: bold;
+}
+#donate_pay {
+  mar
 }

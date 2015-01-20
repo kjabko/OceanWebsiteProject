@@ -6,16 +6,31 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+          <a href="index.php" id="back_btn"><img src="logos/back_btn.svg" alt="back"></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav" id="top-nav">
-            <li><a href="index.php"><<<&nbsp<i class="fa fa-home"></i></a></li>
             <li><a href="#clichange_section">Climate Change</a></li>            
             <li><a href="#overfishing_section">Overfishing</a></li>
             <li><a href="#pollution_section">Pollution</a></li>
             <li><a href="#sea_level">Map</a></li>
-            <li><a href="utilities.php"><i class="fa fa-gears">&nbsp>>></i></a></li>
+            <li><a href="utilities.php"><img src="logos/gear_wheel_icon.svg" alt="gear_wheel"></a></li>
           </ul>
+          <div class="buttons">
+            <ul>
+            <li id="donate" data-toggle="modal" data-target="#myModal_donate">Donate</li>
+            <li id="join">Join</li>
+          </ul>
+          </div>
+          <div id="nav_search">
+          <img src="logos/search_icon.svg" alt="search" id="trigger">
+          </div>
+          <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
           
         </div><!--/.nav-collapse -->
 </nav>

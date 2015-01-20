@@ -56,7 +56,7 @@
                         </div>
                         <div class="circle__second_4">
                             <h3 class="circle__second__title" id="fourth">About Us</h3>
-                            <p class="circle__second__text">We are team B52.0<br>&nbsp&nbsp&nbspSandra, Yvon, Ijeoma, Kris, Conor,<br>&nbsp&nbspand Paddy. We Lear. We Build.<br>We Innovate.</p>
+                            <p class="circle__second__text">We are team B52.0<br>&nbsp&nbsp&nbspSandra, Yvon, Ijeoma, Kris, Conor,<br>&nbsp&nbspand Paddy. We Learn. We Build.<br>We Innovate.</p>
                         </div>
                     </div>
                 </div>

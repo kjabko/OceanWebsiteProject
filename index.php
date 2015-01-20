@@ -69,9 +69,9 @@
 
             //hide show search bar
             $(document).ready(function(){
-                $('form').hide();
+                $('.navbar-form').hide();
                 $('#nav_search').click(function(){
-                $('form').toggle(800);
+                $('.navbar-form').toggle(800);
                 });
             });
         </script>

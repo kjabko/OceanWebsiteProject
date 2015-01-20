@@ -14,11 +14,13 @@
             <li><a href="utilities.php">Utilities</a></li>
           </ul>
           <div class="buttons">
-            <a href="#"><img src="img/donate_single.png" border="0" data-toggle="modal" data-target="#myModal"></a>
-            <a href="#"><img src="img/join_single.png" border="0"></a>
+            <ul>
+            <li id="donate" data-toggle="modal" data-target="#myModal_donate">Donate</li>
+            <li id="join">Join</li>
+          </ul>
           </div>
           <div id="nav_search">
-          <img src="logos/magnifying7.png" alt="search" id="trigger">
+          <img src="logos/search_icon.svg" alt="search" id="trigger">
           </div>
           <form class="navbar-form navbar-right" role="search">
         <div class="form-group">
