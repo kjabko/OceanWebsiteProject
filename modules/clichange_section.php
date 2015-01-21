@@ -1,8 +1,12 @@
 <div class="block" id="clichange_section">
 <div id="ice_pic">
 </div>
+<div id="cli_text"><h1>Climate Change</h1></div>
 	<div id="cli_heading">
-		<h1 class="featurette-heading"><span><i>“We know we’re going to have sea rise. This is literally a one-way street now. The only thing we’re discussing now is how fast, it’s not whether anymore, and then eventually how much.”</i></span></h1>
+    <div class="col-md-2"></div><div class="col-md-8">
+		<h1 class="featurette-heading"><span><i>“We know we’re going to have sea rise.<br>This is literally a one-way street now. The only thing we’re discussing now is how fast, <br>it’s not whether anymore, and then eventually how much.”</i></span></h1>
+    </div><div class="col-md-2">
+    </div>
     </div>  
       <section class="container">
       <div class="row featurette">
@@ -13,7 +17,7 @@ Continued increases in the sea level will in time have a dramatic impact on many
 </p>
         </div>
         <div class="col-md-5">
-          <img src="img/sea_level.jpg" class="featurette-image img-responsive img-rounded" data-src="holder.js/500x500/auto" alt="flood">
+          <img src="img/dark_water_melt.jpg" class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="flood">
           <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
   Launch Video
@@ -117,6 +121,23 @@ Some weather experts believe we are currently seeing the effects of higher ocean
 </div>
 
         </div>
+      </div>
+</section>
+ <hr class="featurette-divider">
+      <div id="turtle_pic"></div>
+    <div id="cli_heading_4"> 
+        <h1 class="featurette-heading"><span><i>""Over the last 22 years sea-trurtle numbers have declined in excess of 95 percent""</i></span></h1>
+         </div>
+    <section class="container">
+      <div class="row featurette">
+        <div class="col-md-7">
+           <p class="lead">Female turtles come ashore to dig nests in the sand lay their eggs and then return to the sea. The eggs hatch 45-60 day later and the baby turtles are guided t the sea by the moonlight. Rising sea levels are eroding nesting beaches. Temperatures may soon exceed the upper limit for egg incubation which is 34 degrees Celsius. Temperature during incubation determines the sex of the egg. 90 percent of loggerhead turtles currently born in Florida are female owing to high temperatures. If temperatures increase by an additional 1 degree C or more, no males will be produced.
+              </p>
+        </div>
+        <div class="col-md-5"><div id="turtles_nesting">
+          <img src="img/sea_turtle_nesting.png" class="featurette-image img-responsive img-rounded" alt="trurtles_nesting">
+        </div>
+ </div>
       </div>
 </section>
       <!-- /END THE FEATURETTES -->

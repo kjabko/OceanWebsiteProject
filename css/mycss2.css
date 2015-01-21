@@ -298,19 +298,20 @@ util_button:hover {
 
 .featurette-heading {
   margin-top: 0px;
+  font-size: 2.70em;
 }
-#cli_heading {
+#cli_heading .featurette-heading {
   text-align: center;
-  margin-top: 80px;
-  margin-bottom: 120px;
+  margin-top: -10px;
+  margin-bottom: 80px;
 }
 #cli_heading span:before, #cli_heading span:after {
   content: '';
   display: block;
   height: 4px;
   position: relative;
-  width: 10em;
-  background: #58D3F7;
+  width: 19em;
+  background: #D8D8D8;
   left: 0;
   margin: auto;
   right: 0;
@@ -324,6 +325,7 @@ util_button:hover {
 }
 #cli_heading_2 {
   text-align: center;
+
   margin-top: 80px;
   margin-bottom: 120px;
 }
@@ -332,8 +334,8 @@ util_button:hover {
   display: block;
   height: 4px;
   position: relative;
-  width: 10em;
-  background: #58D3F7;
+  width: 19em;
+  background: #D8D8D8;
   left: 0;
   margin: auto;
   right: 0;
@@ -355,8 +357,8 @@ util_button:hover {
   display: block;
   height: 4px;
   position: relative;
-  width: 10em;
-  background: #58D3F7;
+  width: 19em;
+  background: #D8D8D8;
   left: 0;
   margin: auto;
   right: 0;
@@ -365,6 +367,29 @@ util_button:hover {
   top: -30px;
 }
 #cli_heading_3 span:after {
+  bottom: 0;
+  top: 30px;
+}
+#cli_heading_4 {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+#cli_heading_4 span:before, #cli_heading_4 span:after {
+  content: '';
+  display: block;
+  height: 4px;
+  position: relative;
+  width: 19em;
+  background: #D8D8D8;
+  left: 0;
+  margin: auto;
+  right: 0;
+}
+#cli_heading_4 span:before {
+  top: -30px;
+}
+#cli_heading_4 span:after {
   bottom: 0;
   top: 30px;
 }
@@ -377,14 +402,143 @@ util_button:hover {
 #clichange_section img {
   margin-top: 60px;
 }
-#ice_pic {
-  width: 100%;
-  height: 500px;
-  padding-top: 0;
-  margin-top: 0;
-  background-image: url("../img/1600x600-ice_melting.jpg");
-  background-attachment: fixed;
+#turtles_nesting img {
+  margin-top: -0px;
 }
+#ice_pic {
+  height: 300px;
+  background-image: url("../img/arctic-ice-melt940.jpg");
+  background-size:contain;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
+}
+#cli_text h1 {
+  position: static;
+  z-index: 1;
+  text-align: center;
+  margin-top: -260px;
+  margin-bottom: 260px;
+  color: #fff;
+  font-size: 4em;
+  width: 100%;
+  -webkit-text-fill-color: #fff; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #000;
+   -moz-text-fill-color: #fff;
+  -o-text-fill-color: #fff; 
+  -moz-text-stroke-color: #000;
+  -o-text-stroke-color: #000;
+  -moz-text-stroke-width: 1px;
+  -o-text-stroke-width: 1px;
+}
+@media (min-width: 768px) {
+#ice_pic {
+ height: 400px;
+  background-image: url("../img/arctic-ice-melt940.jpg");
+  background-size:contain;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
+}
+#cli_text h1 {
+  position: static;
+  z-index: 1;
+  text-align: center;
+  margin-top: -360px;
+  margin-bottom: 360px;
+  color: #fff;
+  font-size: 6em;
+  width: 100%;
+  -webkit-text-fill-color: #fff; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #000;
+   -moz-text-fill-color: #fff;
+  -o-text-fill-color: #fff; 
+  -moz-text-stroke-color: #000;
+  -o-text-stroke-color: #000;
+  -moz-text-stroke-width: 1px;
+  -o-text-stroke-width: 1px;
+}
+}
+@media (min-width: 992px) {
+  #ice_pic {
+    height: 400px;
+  background-image: url("../img/arctic-ice-melt1_lg.jpg");
+  background-size:contain;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
+}
+#cli_text h1 {
+  position: static;
+  z-index: 1;
+  text-align: center;
+  margin-top: -360px;
+  margin-bottom: 360px;
+  color: #fff;
+  font-size: 7em;
+  width: 100%;
+  -webkit-text-fill-color: #fff; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #000;
+   -moz-text-fill-color: #fff;
+  -o-text-fill-color: #fff; 
+  -moz-text-stroke-color: #000;
+  -o-text-stroke-color: #000;
+  -moz-text-stroke-width: 1px;
+  -o-text-stroke-width: 1px;
+}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #ice_pic {
+    height: 500px;
+  background-image: url("../img/arctic-ice-melt1_lg.jpg");
+  background-size:contain;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
+}
+#cli_text h1 {
+  position: static;
+  z-index: 1;
+  text-align: center;
+  margin-top: -460px;
+  margin-bottom: 460px;
+  color: #fff;
+  font-size: 8em;
+  width: 100%;
+  -webkit-text-fill-color: #fff; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #000;
+   -moz-text-fill-color: #fff;
+  -o-text-fill-color: #fff; 
+  -moz-text-stroke-color: #000;
+  -o-text-stroke-color: #000;
+  -moz-text-stroke-width: 1px;
+  -o-text-stroke-width: 1px;
+}
+}
+
+
 iframe, object, embed {max-width: 100%;}
 
 #overfish_pic {
@@ -497,4 +651,17 @@ iframe, object, embed {max-width: 100%;}
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: #fff;
    font-weight: bold;
+}
+#turtle_pic {
+  height: 500px;
+  margin-top: -80px;
+  background-image: url("../img/sea_turtle.jpg");
+  background-size:contain;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
 }

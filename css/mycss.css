@@ -699,7 +699,14 @@ footer p.text-muted {
   -webkit-text-fill-color: #000; /* Will override color (regardless of order) */
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: #fff;
-   font-weight: bold;
+   -moz-text-fill-color: #000;
+  -o-text-fill-color: #000; 
+  -moz-text-stroke-color: #fff;
+  -o-text-stroke-color: #fff;
+  -moz-text-stroke-width: 1px;
+  -o-text-stroke-width: 1px;
+
+  font-weight: bold;
 }
 #donate_pay {
   mar
