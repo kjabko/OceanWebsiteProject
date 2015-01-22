@@ -19,12 +19,12 @@ Continued increases in the sea level will in time have a dramatic impact on many
         <div class="col-md-5">
           <img src="img/dark_water_melt.jpg" class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="flood">
           <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_flood">
   Launch Video
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal_flood" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -32,7 +32,7 @@ Continued increases in the sea level will in time have a dramatic impact on many
         <h4 class="modal-title" id="myModalLabel">Jazz</h4>
       </div>
       <div class="modal-body">
-        <object height="360" width="500"><param name="movie" value="http://www.youtube.com/v/?v=_4YUieDlAuM&autoplay=1" /><embed height="360" src="http://www.youtube.com/v/?v=_4YUieDlAuM&autoplay=1" type="application/x-shockwave-flash" width="425"></embed></object>
+        <object height="360" width="500"><param name="movie" value="http://www.youtube.com/v/?v=_4YUieDlAuM&autoplay=1" /><embed height="400" src="http://www.youtube.com/v/?v=_4YUieDlAuM&autoplay=1" type="application/x-shockwave-flash" width="600"></embed></object>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
@@ -43,10 +43,8 @@ Continued increases in the sea level will in time have a dramatic impact on many
         </div>
       </div>
 </section>
-      <hr class="featurette-divider">
 		<div id="cli_heading_2"> 
-    		<h1 class="featurette-heading"><span><i>"For humans, the Arctic is a harshly inhospitable place, but the conditions there are precisely what polar bears require to survive - and thrive. 'Harsh' to us is 'home' for them. Take away the ice and snow, increase the temperature by even a little, and the realm that makes their lives possible literally melts away."</i></span></h1>
-         </div>
+    		 </div>
       <section class="container">
       <div class="row featurette">
         <div class="col-md-5">
@@ -65,7 +63,7 @@ Continued increases in the sea level will in time have a dramatic impact on many
         <h4 class="modal-title" id="myModalLabel">Pat</h4>
       </div>
       <div class="modal-body">
-        <object height="360" width="500"><param name="movie" value="http://www.youtube.com/v/?v=vTig9gKegQk&autoplay=1" /><embed height="360" src="http://www.youtube.com/v/?v=vTig9gKegQk&autoplay=1" type="application/x-shockwave-flash" width="425"></embed></object>
+        <object height="360" width="500"><param name="movie" value="http://www.youtube.com/v/?v=vTig9gKegQk&autoplay=1" /><embed height="400" src="http://www.youtube.com/v/?v=vTig9gKegQk&autoplay=1" type="application/x-shockwave-flash" width="600"></embed></object>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
@@ -84,7 +82,6 @@ Some weather experts believe we are currently seeing the effects of higher ocean
         </div>
       </div>
 </section>
-      <hr class="featurette-divider">
 		<div id="cli_heading_3"> 
     		<h1 class="featurette-heading"><span><i>"Ocean acidification has the potential to significantly alter ocean life, including fisheries."</i></span></h1>
          </div>
@@ -111,7 +108,7 @@ Some weather experts believe we are currently seeing the effects of higher ocean
         <h4 class="modal-title" id="myModalLabel">Ocean Acidification</h4>
       </div>
       <div class="modal-body">
-        <object height="360" width="500"><param name="movie" value="http://www.youtube.com/v/?v=Wo-bHt1bOsw&autoplay=1" /><embed height="360" src="http://www.youtube.com/v/?v=Wo-bHt1bOsw&autoplay=1" type="application/x-shockwave-flash" width="425"></embed></object>
+        <object><param name="movie" value="http://www.youtube.com/v/?v=Wo-bHt1bOsw&autoplay=1" /><embed height="400" src="http://www.youtube.com/v/?v=Wo-bHt1bOsw&autoplay=1" type="application/x-shockwave-flash" width="600"></embed></object>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
@@ -119,7 +116,6 @@ Some weather experts believe we are currently seeing the effects of higher ocean
     </div>
   </div>
 </div>
-
         </div>
       </div>
 </section>
@@ -139,6 +135,24 @@ Some weather experts believe we are currently seeing the effects of higher ocean
         </div>
  </div>
       </div>
+      <div class="divider"></div>
+</section>
+</section>
+    <div id="cli_heading_5"> 
+         </div>
+      <section class="container">
+      <div class="row featurette">
+        <div class="col-md-3">
+          <div id="bear_nesting">
+          <img src="img/polar_bear_thin_ice.jpg" class="featurette-image img-responsie" alt="polar_bear">
+        </div>
+        </div>
+        <div class="col-md-9">
+           <p class="lead">"For humans, the Arctic is a harshly inhospitable place, but the conditions there are precisely what polar bears require to survive - and thrive. 'Harsh' to us is 'home' for them. Take away the ice and snow, increase the temperature by even a little, and the realm that makes their lives possible literally melts away."</span></h1>
+         </p>
+        </div>
+      </div>
+      <div class="divider"></div>
 </section>
       <!-- /END THE FEATURETTES -->
 

@@ -43,7 +43,6 @@
          <?php include 'modules/navigation_one_page.php'; ?>
          <?php include 'modules/donation_modal.php'; ?>
          <?php include 'modules/clichange_section.php'; ?>
-         <?php include 'modules/map.php'; ?>
          <?php include 'modules/overfishing_section.php'; ?>
          <?php include 'modules/pollution_section.php'; ?>
          <?php include 'modules/next_section.php'; ?>

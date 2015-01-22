@@ -238,6 +238,7 @@ body {
 .navbar-form .form-control {
   border-radius: 0px;
   margin-right: -2px;
+  width: 100%
 }
 .btn-default {
   border-radius: 0px;
@@ -325,7 +326,6 @@ util_button:hover {
 }
 #cli_heading_2 {
   text-align: center;
-
   margin-top: 80px;
   margin-bottom: 120px;
 }
@@ -347,12 +347,12 @@ util_button:hover {
   bottom: 0;
   top: 30px;
 }
-#cli_heading_3 {
+#cli_heading_3, #cli_heading_6  {
   text-align: center;
   margin-top: 80px;
   margin-bottom: 120px;
 }
-#cli_heading_3 span:before, #cli_heading_3 span:after {
+#cli_heading_3 span:before, #cli_heading_3 span:after, #cli_heading_6 span:before, #cli_heading_6 span:after {
   content: '';
   display: block;
   height: 4px;
@@ -363,10 +363,10 @@ util_button:hover {
   margin: auto;
   right: 0;
 }
-#cli_heading_3 span:before {
+#cli_heading_3 span:before, #cli_heading_6 span:before {
   top: -30px;
 }
-#cli_heading_3 span:after {
+#cli_heading_3 span:after, #cli_heading_6 span:after {
   bottom: 0;
   top: 30px;
 }
@@ -375,7 +375,7 @@ util_button:hover {
   margin-top: 80px;
   margin-bottom: 120px;
 }
-#cli_heading_4 span:before, #cli_heading_4 span:after {
+#cli_heading_4 span:before {
   content: '';
   display: block;
   height: 4px;
@@ -386,12 +386,33 @@ util_button:hover {
   margin: auto;
   right: 0;
 }
+.divider:after {
+  content: '';
+  display: block;
+  height: 4px;
+  position: relative;
+  width: 60%;
+  background: #D8D8D8;
+  left: 0;
+  margin: auto;
+  margin-top: 40px;
+  right: 0;
+}
 #cli_heading_4 span:before {
   top: -30px;
 }
 #cli_heading_4 span:after {
   bottom: 0;
   top: 30px;
+}
+#cli_heading_5 {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+#bear_nesting img {
+  margin-top: -40px !important;
+  padding-bottom: 20px;
 }
 .btn-primary, .btn-warning, .btn-success {
   display: block;
@@ -542,14 +563,18 @@ background-position:center;
 iframe, object, embed {max-width: 100%;}
 
 #overfish_pic {
-  width: 100%;
   height: 500px;
   padding-top: 0;
-  margin-top: -70px;
-  background-image: url("../img/overfishing.jpg");
+  margin-top: 60px;
+  background-image: url("../img/overfishing12.jpg");
+  background-size:contain;
   background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover; 
+  background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
 }
 /***** MODAL PROPERTIES *****/
  .modal-content {
@@ -664,4 +689,22 @@ iframe, object, embed {max-width: 100%;}
 -o-background-size:cover;
 background-size:cover;
 background-position:center;
+}
+.overfishing_pic img {
+  width: 400px;
+  height: 300px;
+}
+#fish img {
+  width: 50px;
+  height: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+/*accordion*/
+#overfishing_video iframe {
+  margin-top: 35px;
+}
+#overfishing_nesting img {
+  margin-top: 55px;
 }

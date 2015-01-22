@@ -43,56 +43,5 @@ Odio adipiscing posidonium sit cu. Te duo veritus intellegebat, dolorum delectus
 <fieldset>
 
 <!-- Form Name -->
-<legend>Your Information</legend>
 
-<!-- Text input-->
-<div class="control-group">
-  <label class="control-label" for=""></label>
-  <div class="controls">
-    <input id="" name="" type="text" placeholder="Name (Last, First)" class="input-xlarge">
-    
-  </div>
-</div>
-
-<!-- Text input-->
-<div class="control-group">
-  <label class="control-label" for=""></label>
-  <div class="controls">
-    <input id="" name="" type="text" placeholder="Address line 1" class="input-xlarge">
-    
-  </div>
-</div>
-
-<!-- Text input-->
-<div class="control-group">
-  <label class="control-label" for=""></label>
-  <div class="controls">
-    <input id="" name="" type="text" placeholder="Address line 2" class="input-xlarge">
-    
-  </div>
-</div>
-
-<!-- Text input-->
-<div class="control-group">
-  <label class="control-label" for=""></label>
-  <div class="controls">
-    <input id="" name="" type="text" placeholder="City/Town" class="input-xlarge">
-    
-  </div>
-</div>
-
-<!-- Text input-->
-<div class="control-group">
-  <label class="control-label" for=""></label>
-  <div class="controls">
-    <input id="" name="" type="text" placeholder="Country" class="input-xlarge">
-    
-  </div>
-</div>
-
-</fieldset>
-</form>
-
-
-<img src="img/garbage.jpg">
 </div><!--end of pollution_section-->
